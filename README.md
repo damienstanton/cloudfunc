@@ -2,20 +2,17 @@
 
 a [TypeScript](http://www.typescriptlang.org/) starter function for [Firebase](https://firebase.google.com/docs/functions/)/[Google Compute Platform](https://cloud.google.com/functions/).
 
-**Status:**
-
 [![Build Status](https://travis-ci.org/damienstanton/cloudfunc.svg?branch=master)](https://travis-ci.org/damienstanton/cloudfunc)
-
 [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
+
+**Why?**
+
+I found that getting started with a TS function in GCF was more difficult than it should be. I was able to piece together a working example based on the official repo and a couple blog posts. This ia an attempt at a better kit that I can reach for anytime I want to _quickly_ get started on a new function.
 
 **Features:**
 
-- No gloabl dependencies needed. Just run `yarn install` and you're ready.
-- CI tests ensure it works
-
-**Goal:** Rather than try to jog my memory from docs/blog posts, I keep this starter kit handy when I want to spin up a new serverless function.
-
-_NOTE:_ The unit test actually calls a _live_ version of the starter function, not the trivial method it implements. This way, we know it really works.
+- No gloabl dependencies needed. Just run `yarn install` in the functions directory and you're ready.
+- CI tests against a real-life deployed instance ensure the starter kit currently works
 
 [![donation](https://img.shields.io/badge/☕️-Buy_me_coffee-green.svg)](https://paypal.me/damienstanton) 
 
