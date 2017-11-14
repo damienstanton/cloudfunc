@@ -1,0 +1,30 @@
+{
+  "name": "cloudfunc",
+  "version": "1.0.0",
+  "description": "A tested, CI-integrated starter kit for writing Firebase functions in TypeScript.",
+  "main": "build/starter.js",
+  "repository": "https://github.com/damienstanton/cloudfunc",
+  "author": "Damien Stanton <damien.stanton@gmail.com>",
+  "license": "Apache-2.0",
+  "private": false,
+  "dependencies": {
+    "@types/request": "^2.0.8",
+    "firebase-admin": "^5.5.0",
+    "firebase-functions": "^0.7.3",
+    "firebase-tools": "^3.15.0",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.0.39",
+    "@types/jest": "^21.1.6",
+    "jest": "^21.2.1",
+    "ts-jest": "^21.2.2",
+    "typescript": "^2.6.1"
+  },
+  "scripts": {
+    "build": "node_modules/.bin/tsc",
+    "watch": "node_modules/.bin/tsc --watch",
+    "test": "node_modules/.bin/tsc && node_modules/.bin/jest",
+    "deploy": "tsc && node_modules/.bin/firebase deploy --only functions"
+  }
+}
