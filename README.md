@@ -4,7 +4,7 @@ a [TypeScript](http://www.typescriptlang.org/) starter function for [Firebase](h
 
 **Status:**
 
-
+[![Build Status](https://travis-ci.org/damienstanton/cloudfunc.svg?branch=master)](https://travis-ci.org/damienstanton/cloudfunc)
 
 [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
 
