@@ -7,7 +7,7 @@ a [TypeScript](http://www.typescriptlang.org/) starter function for [Firebase](h
 
 **Why?**
 
-I found that getting started with a TS function in GCF was more difficult than it should be. I was able to piece together a working example based on the official repo and a couple blog posts but it was not ideal. This ia an attempt at a better kit that I can reach for anytime I want to _quickly_ get started on a new function.
+I found that getting started with a TS function in GCF was more difficult than it should be. I was able to piece together a working example based on the official repo and a couple blog posts but it was not ideal. This is an attempt at a better kit that I can reach for anytime I want to _quickly_ get started on a new function.
 
 **Features:**
 
