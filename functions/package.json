@@ -25,6 +25,6 @@
     "build": "node_modules/.bin/tsc",
     "watch": "node_modules/.bin/tsc --watch",
     "test": "node_modules/.bin/tsc && node_modules/.bin/jest",
-    "deploy": "tsc && node_modules/.bin/firebase login:ci --token $FIREBASE_TOKEN && node_modules/.bin/firebase deploy --project damien-s --only functions --non-interactive"
+    "deploy": "tsc && node_modules/.bin/firebase deploy --token $FIREBASE_TOKEN --project damien-s --only functions --non-interactive"
   }
 }
