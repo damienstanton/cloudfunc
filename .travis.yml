@@ -1,3 +1,3 @@
 before_install: cd functions
 install: yarn install
-script: yarn deploy && yarn test
+script: yarn deploy --project damien-s && yarn test
