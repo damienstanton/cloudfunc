@@ -11,7 +11,7 @@ I found that getting started with a TS function in GCF was more difficult than i
 
 **Features:**
 
-- No gloabl dependencies needed. Just run `yarn install` in the functions directory and you're ready.
+- No global dependencies needed. Just run `yarn install` in the functions directory and you're ready.
 - CI tests against a real-life deployed instance ensure the starter kit currently works
 
 **Commands:**
