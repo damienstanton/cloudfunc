@@ -1,3 +1,7 @@
+### DEPRECATION NOTICE
+
+The functionality provided by this tool is now available in the [firebase-tools](https://firebase.google.com/docs/functions/get-started) CLI. Go there instead!
+
 # ⛅️  CloudFunc
 
 a [TypeScript](http://www.typescriptlang.org/) starter function for [Firebase](https://firebase.google.com/docs/functions/)/[Google Compute Platform](https://cloud.google.com/functions/).
